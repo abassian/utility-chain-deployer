@@ -72,13 +72,13 @@ RPC_PORT=8515
 WS_PORT=8516
 
 # Comma-separated values for all the bootnodes
-BOOTNODES=enode://60d1fbfcd46f79c7cb963192524d5ca763fdf843bc6c3791b5cf191503389a635dfb5dab9346f94854bd618df3d901e0dc2ecff722baf7b4e5769a702433cd3e@199.192.17.198:30301,enode://ecce13f0c5df7b64087a92049089b6c911b849c8be594d9b72e5784eabbfc7df6dbc633340e07c95d1f6eea4463838ec41e6d5ad8e285b4d04a61b4472f6ba55@199.192.21.138:30301
+BOOTNODES=enode://60d1fbfcd46f79c7cb963192524d5ca763fdf843bc6c3791b5cf191503389a635dfb5dab9346f94854bd618df3d901e0dc2ecff722baf7b4e5769a702433cd3e@199.192.17.198:30305,enode://ecce13f0c5df7b64087a92049089b6c911b849c8be594d9b72e5784eabbfc7df6dbc633340e07c95d1f6eea4463838ec41e6d5ad8e285b4d04a61b4472f6ba55@199.192.21.138:30305
 
 # Bootnode key if you are running a bootnode on this server (optional)
 BOOTNODE_KEY=/home/ubuntu/.abassian/mainnet/boot.key
 
 # Bootnode port where it will listen for incoming connections (optional)
-BOOTNODE_PORT=30301
+BOOTNODE_PORT=30305
 ```
 
 ## Logging

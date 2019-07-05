@@ -1,5 +1,5 @@
 [Unit]
-Description=Ethereum gbas node testnet
+Description=Abassian gbas node testnet
 After=network.target
 
 [Service]

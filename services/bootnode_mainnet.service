@@ -1,5 +1,5 @@
 [Unit]
-Description=Ethereum Gbas bootnode mainnet
+Description=Abassian Gbas bootnode mainnet
 After=network.target
 
 [Service]
