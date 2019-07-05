@@ -1,5 +1,6 @@
 #!/bin/bash
 # Init script for a new node
+# https://gist.github.com/martinhbramwell/4223476
 
 DATA_DIR_ROOT=$HOME/.abassian
 ERR_MESSAGE="$ ./init.sh /path/to/.env"
