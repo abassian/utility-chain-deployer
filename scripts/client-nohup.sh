@@ -4,11 +4,8 @@
 nohup \
 gbas \
 --datadir "$DATA_DIR" \
---syncmode full \
---gcmode archive \
 --networkid "$CHAIN_ID" \
 --nat=none \
---targetgaslimit 4700000 \
 --port "$LISTEN_PORT" \
 --rpc \
 --rpcaddr 0.0.0.0 \

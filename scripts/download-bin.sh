@@ -1,11 +1,11 @@
 #!/bin/sh
 # Downloads, unzips, and moves bootnode and gbas binaries to /usr/local/bin
 
-CURRENT_VERSION=1.8.23a
+CURRENT_VERSION=1.0.0
 UNZIP_DIR=/tmp/abassian
 
 echo "Downloading all gbas tools..."
-wget "https://github.com/abassianchain/releases/releases/download/v$CURRENT_VERSION/all-linux-amd64-$CURRENT_VERSION.tar.gz"
+wget "https://github.com/abassian/go-abassian/releases/download/v$CURRENT_VERSION/all-linux-amd64-$CURRENT_VERSION.tar.gz"
 mkdir -p $UNZIP_DIR
 tar xvzf "all-linux-amd64-$CURRENT_VERSION.tar.gz" -C $UNZIP_DIR
 chmod 755 "$UNZIP_DIR/bootnode-linux-amd64"
