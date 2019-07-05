@@ -1,0 +1,18 @@
+[Unit]
+Description=Ethereum gbas node mainnet
+After=network.target
+
+[Service]
+Type=forking
+User=ubuntu
+Group=ubuntu
+WorkingDirectory=/home/ubuntu
+EnvironmentFile=/home/ubuntu/.abassian/mainnet/.env
+ExecStart=/home/ubuntu/.abassian/client-nohup.sh
+Restart=on-failure
+StandardOutput=syslog
+StandardError=syslog
+SyslogIdentifier=gbas_mainnet
+
+[Install]
+WantedBy=multi-user.target
