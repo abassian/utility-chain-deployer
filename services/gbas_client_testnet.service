@@ -4,11 +4,11 @@ After=network.target
 
 [Service]
 Type=forking
-User=ubuntu
-Group=ubuntu
-WorkingDirectory=/home/ubuntu
-EnvironmentFile=/home/ubuntu/.abassian/testnet/.env
-ExecStart=/home/ubuntu/.abassian/client-nohup.sh
+User=root
+Group=root
+WorkingDirectory=/home/root
+EnvironmentFile=/home/root/.abassian/testnet/.env
+ExecStart=/home/root/.abassian/client-nohup.sh
 Restart=on-failure
 StandardOutput=syslog
 StandardError=syslog
