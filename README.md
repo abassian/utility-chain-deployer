@@ -49,6 +49,9 @@ If your default user is not `ubuntu` you will need to change the following. The 
 
 See `example-client.env` for an example. You will need to create this `.env` file in the `DATA_DIR` location. Below is the explanation for each field.
 
+NOTE: The BOOTNODES values below can be used in production.
+
+
 ```bash
 # Network type: mainnet|testnet
 NETWORK=mainnet
