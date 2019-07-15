@@ -12,6 +12,7 @@ gbas \
 --rpcport "$RPC_PORT" \
 --rpccorsdomain "*" \
 --rpcapi db,debug,eth,net,web3 \
+--rpcvhosts="*" \
 --ws \
 --wsaddr 0.0.0.0 \
 --wsport "$WS_PORT" \
