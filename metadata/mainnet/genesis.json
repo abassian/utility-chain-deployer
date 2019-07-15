@@ -17,7 +17,5 @@
     "timestamp"  : "0x0",
     "extraData"  : "",
     "coinbase"   : "0x0000000000000000000000000000000000000000",
-    "alloc": {
-        "7df9a875a174b3bc565e6424a0050ebc1b2d1d82": { "balance": "300000" }
-    }
+    "alloc": {}
 }
